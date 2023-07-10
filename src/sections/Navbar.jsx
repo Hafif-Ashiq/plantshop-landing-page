@@ -9,8 +9,6 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      console.log(window.screenY);
-      console.log(window.innerHeight);
       window.scrollY <= window.innerHeight / 6
         ? setNavTop(true)
         : setNavTop(false);
