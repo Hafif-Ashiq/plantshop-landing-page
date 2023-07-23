@@ -12,7 +12,7 @@ export default {
         "font-light": "#4F4F4F"
       },
       backgroundImage: {
-        'hero-image': "url('./heroBg.png')",
+        'hero-image': "url('./src/assets/heroBg.png')",
         'gradient-primary': "linear-gradient(133deg, #566270 0%, #283444 100%)",
         
       },
